@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="es">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#141316"><meta name="description" content="Cinco corazones y algo que quiero decirte."><title>Ahora sí · Un mensaje para ti</title><link rel="stylesheet" href="styles.css"></head>
+<body>
+<div class="ambient" aria-hidden="true"><span>♡</span><span>♡</span><span>♡</span><span>♡</span></div>
+<header><a class="brand" href="#" aria-label="Ahora sí, inicio">a<span>♡</span>ra sí<span class="brand-dot">.</span></a><span class="header-note">UN PEQUEÑO GESTO, PARA TI</span><span class="edition">DE ISAÍAS <span>↗</span></span></header>
+<main>
+<section id="welcome" class="screen welcome" aria-labelledby="welcome-title">
+<div class="eyebrow"><span></span> ALGO PENDIENTE ENTRE NOSOTROS</div>
+<div class="heart-art" aria-hidden="true"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="hero-heart">♥</div><span class="spark spark-one">✧</span><span class="spark spark-two">+</span><span class="art-caption">hecho con un poquito de valor</span></div>
+<h1 id="welcome-title">Hay algo que<br>quiero <em>decirte…</em></h1>
+<p class="intro">Pero tendrás que desbloquearlo primero 🤍</p>
+<button id="start" class="primary">Comenzar <span aria-hidden="true">↗</span></button>
+<p class="small-note">5 corazones. Un mensaje. Y una segunda versión de mí.</p>
+<div class="welcome-bottom"><span>01 — UN PEQUEÑO COMIENZO</span><span>SIN PRISAS, A TU RITMO</span></div>
+</section>
+<section id="game" class="screen" hidden aria-labelledby="game-title">
+<div class="eyebrow">02 / ENCUENTRA EL MENSAJE</div><h2 id="game-title">Cinco pequeños <em>pasos.</em></h2><p class="intro">Toca el corazón. Cada uno nos acerca un poquito.</p>
+<div class="game-top"><span id="counter" aria-live="polite">Corazones encontrados: 0 / 5</span><div id="steps" aria-hidden="true">♡ ♡ ♡ ♡ ♡</div></div>
+<div id="arena"><div class="arena-caption" aria-hidden="true">un pequeño gesto puede decir mucho</div><button id="heart" aria-label="Atrapar corazón 1 de 5">♥</button><div id="gather" hidden aria-hidden="true"><span>♥</span><span>♥</span><span>♥</span><span>♥</span><span>♥</span></div></div>
+<p id="hint" class="hint" role="status">El primero ya te está esperando.</p>
+</section>
+<section id="letter" class="screen letter" hidden aria-labelledby="letter-title"><div class="eyebrow">03 / LO QUE QUERÍA DECIRTE</div><article class="letter-card"><span class="letter-heart" aria-hidden="true">♡</span><h2 id="letter-title">Ahora <em>sí…</em></h2><div class="letter-text"><p>Si hice algún comentario que no te gustó, te pido perdón 🤍</p></div><button id="accept" class="primary">Disculpa aceptada 🤍 <span aria-hidden="true">↗</span></button><p class="small-note">Sin presión. Gracias por llegar hasta aquí.</p></article></section>
+<section id="complete" class="screen complete" hidden aria-labelledby="complete-title"><div class="success-mark" aria-hidden="true">✓</div><div class="eyebrow">UNA VERSIÓN UN POQUITO MEJOR</div><h2 id="complete-title">Actualización<br><em>completada ✓</em></h2><p class="intro">Isaías v2.0 instalado correctamente.</p><div class="changelog"><span>UN PEQUEÑO NUEVO COMIENZO</span><p>✓ Seguir intentando hacerte sonreír</p></div><button id="restart" class="secondary">Volver al comienzo <span aria-hidden="true">↺</span></button><p class="small-note">Gracias por regalarme estos minutos 🤍</p></section>
+</main>
+<footer><span>HECHO CON INTENCIÓN <span class="footer-heart">♡</span></span><span>Las palabras importan. Los gestos también.</span></footer>
+<details id="youtube-player" class="youtube-player"><summary>♫ &nbsp; No Other Heart · Mac DeMarco</summary><iframe id="song-video" title="Mac DeMarco — No Other Heart, audio oficial" allow="autoplay; encrypted-media; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><a href="https://www.youtube.com/watch?v=lPeJMoms_Ag" target="_blank" rel="noopener noreferrer">Escuchar en YouTube ↗</a></details><aside hidden class="player" aria-label="Reproductor de música"><span class="music-icon" aria-hidden="true">♫</span><div class="track"><span id="music-label">Un poco de música</span><input id="seek" type="range" min="0" max="100" value="0" aria-label="Progreso de la canción" disabled></div><button id="play" aria-label="Reproducir música">▶</button><input id="volume" type="range" min="0" max="1" step="0.01" value="0.45" aria-label="Volumen"></aside>
+<audio id="audio" preload="none"></audio><script src="script.js"></script>
+</body></html>
+
